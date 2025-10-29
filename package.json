@@ -1,0 +1,13 @@
+{
+  "name": "telegram-firebase-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for Firebase verification hosted on Vercel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.10.1",
+    "telegraf": "^4.12.2"
+  }
+}
